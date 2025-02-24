@@ -1,0 +1,62 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e3e3e3;
+    margin: 0;
+    padding: 0;
+}
+
+#certificate {
+    width: 800px;
+    margin: 20px auto;
+    background-image: url('https://png.pngtree.com/png-vector/20221206/ourmid/pngtree-golden-blue-certificate-border-folio-f4-size-transparent-png-image_6514169.png');
+    background-size: cover;
+    padding: 100px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+#certificate h1 {
+    text-align: center;
+    color: #b80257;
+}
+
+#certificate .field {
+    margin-bottom: 20px;
+}
+
+#certificate .field label {
+    font-weight: bold;
+    color: #233142;
+}
+
+#certificate .field input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #455d7a;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#certificate .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #f95959;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#certificate .btn:hover {
+    background-color: #b80257;
+}
+
+#seal {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #b80257;
+    font-size: 36px;
+}
